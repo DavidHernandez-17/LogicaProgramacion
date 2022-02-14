@@ -10,7 +10,7 @@ namespace Ejercicio01_PAR_IMPAR
     {
         public Operador()
         {
-            Console.WriteLine("Enter a num: ");
+            Console.WriteLine("Enter a num1: ");
             string number = Console.ReadLine();
             int.TryParse(number, out int num);
 
